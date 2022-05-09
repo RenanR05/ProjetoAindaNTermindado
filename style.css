@@ -1,0 +1,75 @@
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Foto */
+#photo {
+    width: 1495px;
+    height: 713px;
+}
+
+/* Header */
+nav {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+nav > ul > li > a {
+    color: blueviolet;
+}
+
+/* textos */
+.text {
+    margin: 0px 10px 25px 20px;
+    text-decoration: none;
+    font-family: Varela Round;
+    font-size: medium;
+}
+
+/* estilizando texto */
+.text:hover {
+    color: rgb(212, 212, 212);
+    transition: 0.80s;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+}
+
+#section01 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0px 0px 0px;
+    font-family: Varela Round;
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.li-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: justify;
+    width: 50%;
+}
